@@ -1,0 +1,94 @@
+@import "http://fonts.googleapis.com/css?family=Cardo";
+
+html, body, footer, .footer {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 100%;
+  font-family: 'Cardo', serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: 'Cardo', serif;
+  // display: flex;
+  min-height: 100vh;
+  // flex-direction: column;
+  padding: 20px;
+}
+
+.TrelloExport {
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, legend, .bdate {
+  font-family: 'Patrick Hand SC';
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+}
+
+h1 {
+  background-color: #FFD000;
+  color: black;
+  padding: 10px;
+  font-size: 2em;
+}
+
+h2 {
+  color: #000;
+  padding: 10px;
+  font-size: 1.8em;
+  border: solid 2px #FFD000;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #B229FF;
+  padding: 10px 10px 0 10px;
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+p {
+  padding-left: 10px;
+  font-size: 1em;
+}
+
+// h3, h4, h5, h6 {
+//   color: #666;
+// }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+img {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+.FluidYellow {
+  background-color: #FFD000;
+}
+
+a, a:visited, a:focus {
+  color: #BB2DFF;
+}
